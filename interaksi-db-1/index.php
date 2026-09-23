@@ -6,8 +6,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>interaksi ke db sesi 1</title>
 </head>
-<body class="flex flex-col min-h-screen w-full items-center justify-center">
-  <main class="shadow-md p-5 max-w-md w-full">
+<body class="">
+  <main class="shadow-md p-5 max-w-md w-full mx-auto mt-10">
     <h1 class="text-2xl text-center text-black mt-5">Login example form</h1>
     <div class="mt-5 p-5 max-w-md mx-auto">
       <form action="index.php" method="post"> 
@@ -48,9 +48,7 @@
 
       // tutup koneksi ke database
       mysqli_close($connection);
-
     }
-    
     ?>
   </main>
 </body>
