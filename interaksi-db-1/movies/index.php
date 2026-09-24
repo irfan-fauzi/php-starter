@@ -1,3 +1,10 @@
+<?php
+  require_once __DIR__ . '/cofig/connectDb.php';
+  require_once __DIR__ . '/models/MovieModel.php';
+  $movies = getAllMovies($connection);
+  
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
